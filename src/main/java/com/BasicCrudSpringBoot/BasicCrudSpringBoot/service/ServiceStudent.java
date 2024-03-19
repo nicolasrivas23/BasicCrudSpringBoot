@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service
+
 public interface ServiceStudent {
     List<Student> findAll();
     Optional<Student> findById(Long id);
