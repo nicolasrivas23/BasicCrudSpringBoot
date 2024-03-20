@@ -15,15 +15,18 @@ public class StudentController {
     @Autowired
     private StudentImpl studentImpl;
 
-    @GetMapping
+    @GetMapping("/student")
+    @ResponseBody
     public List<Student> findAll(){
         return studentImpl.findAll();
     }
-    @GetMapping(path = "{id}")
+    @GetMapping("/studentById/{id}")
+    @ResponseBody
     public Optional<Student> findById(@PathVariable Long id){
         return studentImpl.findById(id);
     }
     @PostMapping
+    @ResponseBody
     public void save(@RequestBody Student student){
         studentImpl.saveOrUpdate(student);
     }
