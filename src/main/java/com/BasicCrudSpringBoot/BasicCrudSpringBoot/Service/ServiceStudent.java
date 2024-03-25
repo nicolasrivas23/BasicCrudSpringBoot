@@ -1,6 +1,6 @@
-package com.BasicCrudSpringBoot.basiccrudspringboot.Service;
+package com.BasicCrudSpringBoot.BasicCrudSpringBoot.Service;
 
-import com.BasicCrudSpringBoot.basiccrudspringboot.entity.Student;
+import com.BasicCrudSpringBoot.BasicCrudSpringBoot.entity.Student;
 
 import java.io.IOException;
 import java.util.List;

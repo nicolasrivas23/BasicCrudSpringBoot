@@ -1,11 +1,10 @@
-package com.BasicCrudSpringBoot.basiccrudspringboot.Service.Impl;
+package com.BasicCrudSpringBoot.BasicCrudSpringBoot.Service.Impl;
 
-import com.BasicCrudSpringBoot.basiccrudspringboot.entity.Student;
-import com.BasicCrudSpringBoot.basiccrudspringboot.repository.StudentRepository;
-import com.BasicCrudSpringBoot.basiccrudspringboot.Service.ServiceStudent;
-import com.BasicCrudSpringBoot.basiccrudspringboot.DTO.StudentDTO;
+import com.BasicCrudSpringBoot.BasicCrudSpringBoot.DTO.StudentDTO;
+import com.BasicCrudSpringBoot.BasicCrudSpringBoot.Service.ServiceStudent;
+import com.BasicCrudSpringBoot.BasicCrudSpringBoot.entity.Student;
+import com.BasicCrudSpringBoot.BasicCrudSpringBoot.repository.StudentRepository;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;

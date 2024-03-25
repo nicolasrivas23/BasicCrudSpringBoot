@@ -1,6 +1,6 @@
-package com.BasicCrudSpringBoot.basiccrudspringboot.repository;
+package com.BasicCrudSpringBoot.BasicCrudSpringBoot.repository;
 
-import com.BasicCrudSpringBoot.basiccrudspringboot.entity.Student;
+import com.BasicCrudSpringBoot.BasicCrudSpringBoot.entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

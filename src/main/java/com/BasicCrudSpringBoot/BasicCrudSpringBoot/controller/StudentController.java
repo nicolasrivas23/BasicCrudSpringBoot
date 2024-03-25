@@ -1,8 +1,8 @@
-package com.BasicCrudSpringBoot.basiccrudspringboot.controller;
+package com.BasicCrudSpringBoot.BasicCrudSpringBoot.controller;
 
-import com.BasicCrudSpringBoot.basiccrudspringboot.Service.Impl.StudentImpl;
-import com.BasicCrudSpringBoot.basiccrudspringboot.entity.Student;
-import com.BasicCrudSpringBoot.basiccrudspringboot.DTO.StudentDTO;
+import com.BasicCrudSpringBoot.BasicCrudSpringBoot.Service.Impl.StudentImpl;
+import com.BasicCrudSpringBoot.BasicCrudSpringBoot.entity.Student;
+import com.BasicCrudSpringBoot.BasicCrudSpringBoot.DTO.StudentDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -17,8 +17,11 @@ import java.util.Optional;
 @Slf4j
 public class StudentController {
 
-    @Autowired
-    private StudentImpl studentImpl;
+    private final StudentImpl studentImpl;
+
+    public StudentController(StudentImpl studentImpl) {
+        this.studentImpl = studentImpl;
+    }
 
     @GetMapping("/student")
     public List<Student> findAll(){

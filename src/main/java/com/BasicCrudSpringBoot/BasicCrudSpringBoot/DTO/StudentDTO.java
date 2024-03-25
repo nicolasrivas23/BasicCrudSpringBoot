@@ -1,4 +1,4 @@
-package com.BasicCrudSpringBoot.basiccrudspringboot.DTO;
+package com.BasicCrudSpringBoot.BasicCrudSpringBoot.DTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

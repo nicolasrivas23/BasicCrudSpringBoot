@@ -1,7 +1,6 @@
-package com.BasicCrudSpringBoot.basiccrudspringboot.entity;
+package com.BasicCrudSpringBoot.BasicCrudSpringBoot.entity;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.Email;
 import lombok.*;
 
 @Getter
